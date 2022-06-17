@@ -1,0 +1,53 @@
+inherited frmTarefa02: TfrmTarefa02
+  Caption = 'Tarefa 02'
+  ClientHeight = 504
+  DefaultMonitor = dmDesktop
+  FormStyle = fsMDIChild
+  Position = poDesktopCenter
+  Visible = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  ExplicitWidth = 650
+  ExplicitHeight = 543
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited pnlRodapePadrao: TPanel
+    Top = 412
+    ExplicitTop = 412
+  end
+  object btIniciar: TButton
+    Left = 232
+    Top = 49
+    Width = 75
+    Height = 25
+    Caption = '&Iniciar'
+    TabOrder = 1
+    OnClick = btIniciarClick
+  end
+  object GroupBox1: TGroupBox
+    Left = 24
+    Top = 32
+    Width = 185
+    Height = 57
+    Caption = ' Intervalo de tempo'
+    TabOrder = 2
+    object edIntervalo: TEdit
+      Left = 12
+      Top = 19
+      Width = 90
+      Height = 21
+      Alignment = taRightJustify
+      TabOrder = 0
+      Text = '0'
+    end
+  end
+  object Button1: TButton
+    Left = 216
+    Top = 152
+    Width = 201
+    Height = 121
+    Caption = 'Button1'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+end

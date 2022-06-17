@@ -1,0 +1,25 @@
+inherited frmTarefa03: TfrmTarefa03
+  Caption = 'Tarefa 03'
+  DefaultMonitor = dmDesktop
+  FormStyle = fsMDIChild
+  Position = poDesktopCenter
+  Visible = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  ExplicitWidth = 650
+  ExplicitHeight = 600
+  PixelsPerInch = 96
+  TextHeight = 13
+  object dbgRegistros: TDBGrid
+    Left = 8
+    Top = 24
+    Width = 618
+    Height = 361
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+end

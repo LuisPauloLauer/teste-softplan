@@ -1,0 +1,5 @@
+inherited frmTarefa03: TfrmTarefa03
+  Caption = 'Tarefa 03'
+  PixelsPerInch = 96
+  TextHeight = 13
+end

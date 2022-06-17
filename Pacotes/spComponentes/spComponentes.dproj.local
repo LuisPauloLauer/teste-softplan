@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/14 22:55:46.000.447,=rtl.dcp</Transaction>
+    <Transaction>2022/06/16 21:00:52.000.513,=rtl.dcp</Transaction>
+    <Transaction>2022/06/16 21:01:30.000.465,=rtl.dcp</Transaction>
+    <Transaction>2022/06/16 21:03:21.000.944,=xmlrtl.dcp</Transaction>
+    <Transaction>2022/06/16 21:03:21.000.933,=FireDACSqliteDriver.dcp</Transaction>
+    <Transaction>2022/06/16 21:03:21.000.940,=FireDACCommon.dcp</Transaction>
+    <Transaction>2022/06/16 21:03:21.000.936,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2022/06/16 21:03:21.000.927,=dbrtl.dcp</Transaction>
+    <Transaction>2022/06/16 21:03:21.000.918,=C:\Users\LP\Documents\Embarcadero\Studio\Projects\uspQuery.pas</Transaction>
+    <Transaction>2022/06/16 21:03:21.000.930,=FireDAC.dcp</Transaction>
+    <Transaction>2022/06/16 21:05:16.000.286,C:\Users\LP\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Pacotes\spComponentes\spComponentes.dproj</Transaction>
+    <Transaction>2022/06/16 21:19:20.000.254,C:\Users\LP\Documents\Embarcadero\Studio\Projects\uspQuery.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Pacotes\spComponentes\uspQuery.pas</Transaction>
+    <Transaction>2022/06/16 21:19:49.000.968,=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Pacotes\spComponentes\View\Padrao\uFrmPadrao.pas</Transaction>
+    <Transaction>2022/06/16 21:20:12.000.471,=vcl.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.065,=dbexpress.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.040,=DbxCommonDriver.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.056,=FireDACMySQLDriver.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.052,=FireDACIBDriver.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.044,=FireDACMSAccDriver.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.048,=FireDACCommonODBC.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.069,=FireDACDBXDriver.dcp</Transaction>
+    <Transaction>2022/06/16 22:31:55.000.061,=FireDACADSDriver.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

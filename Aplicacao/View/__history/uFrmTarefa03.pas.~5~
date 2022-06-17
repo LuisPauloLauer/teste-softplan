@@ -1,0 +1,41 @@
+unit uFrmTarefa03;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmPadrao, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.ComCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmTarefa03 = class(TfrmPadrao)
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTarefa03: TfrmTarefa03;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmTarefa03.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  inherited;
+  Action := caFree;
+  //Release;
+  //frmTarefa03 := nil;
+end;
+
+procedure TfrmTarefa03.FormCreate(Sender: TObject);
+begin
+  inherited;
+  stbRodapePadrao.Panels[1].Text := 'Tarefa 03'
+end;
+
+end.

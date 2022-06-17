@@ -1,0 +1,7 @@
+inherited frmTarefa03: TfrmTarefa03
+  Caption = 'Tarefa 03'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+end

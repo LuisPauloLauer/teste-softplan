@@ -1,0 +1,23 @@
+inherited frmTarefa03: TfrmTarefa03
+  Caption = 'Tarefa 03'
+  DefaultMonitor = dmDesktop
+  FormStyle = fsMDIChild
+  Position = poDesktopCenter
+  Visible = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  ExplicitWidth = 650
+  ExplicitHeight = 600
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ClientDataSet1: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 336
+    Top = 168
+  end
+  object DataSource1: TDataSource
+    Left = 408
+    Top = 168
+  end
+end

@@ -1,0 +1,74 @@
+unit uFrmTarefa03;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmPadrao, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.ComCtrls, Vcl.ExtCtrls, Data.DB, Datasnap.DBClient, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TfrmTarefa03 = class(TfrmPadrao)
+    dbgRegistros: TDBGrid;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTarefa03: TfrmTarefa03;
+  oCdsRegistros: TClientDataSet;
+  oDts: TDataSource;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmTarefa03.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  inherited;
+  Action := caFree;
+  //Release;
+  //frmTarefa03 := nil;
+end;
+
+procedure TfrmTarefa03.FormCreate(Sender: TObject);
+var
+ i : integer;
+ fValor: Double;
+begin
+  inherited;
+  stbRodapePadrao.Panels[1].Text := 'Tarefa 03';
+  oCdsRegistros := TClientDataSet.Create(Self);
+  oCdsRegistros.Close;
+  oCdsRegistros.FieldDefs.Clear;
+  oCdsRegistros.FieldDefs.add('idProjeto',ftInteger);
+  oCdsRegistros.FieldDefs.add('NomeProjeto',ftString,200);
+  oCdsRegistros.FieldDefs.add('Valor',ftFloat);
+  oCdsRegistros.CreateDataSet;
+  oDts := TDataSource.Create(nil);
+  oDts.DataSet := oCdsRegistros;
+  dbgRegistros.DataSource := oDts.DataSet;
+
+  fValor := 10.00;
+
+  try
+    for i := 1 to 10 do
+    begin
+      oCdsRegistros.Insert;
+      oCdsRegistros.FieldByName('idProjeto').AsInteger := i;
+      oCdsRegistros.FieldByName('NomeProjeto').AsString := 'Projeto '+i;
+      oCdsRegistros.FieldByName('Valor').AsFloat := fValor;
+      oCdsRegistros.Post;
+    end;
+  finally
+    oCdsRegistros.Open;
+    oCdsRegistros.First;
+  end;
+
+end;
+
+end.

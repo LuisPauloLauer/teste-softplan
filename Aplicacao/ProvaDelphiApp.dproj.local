@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/14 21:42:37.000.336,=C:\Users\LP\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 21:53:32.000.238,C:\Users\LP\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmPrincipal.pas</Transaction>
+    <Transaction>2022/06/14 21:53:32.000.238,C:\Users\LP\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2022/06/14 21:54:21.000.936,C:\Users\LP\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\ProvaDelphiApp.dproj</Transaction>
+    <Transaction>2022/06/14 23:19:27.000.704,=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Pacotes\spComponentes\View\Padrao\uFrmPadrao.pas</Transaction>
+    <Transaction>2022/06/14 23:20:18.000.979,=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 23:26:50.000.443,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTarefa01.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 23:26:50.000.443,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTarefa01.dfm=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.dfm</Transaction>
+    <Transaction>2022/06/15 00:23:21.000.114,=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas</Transaction>
+    <Transaction>2022/06/15 00:23:45.000.689,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.dfm=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTarefa02.dfm</Transaction>
+    <Transaction>2022/06/15 00:23:45.000.689,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTarefa02.pas</Transaction>
+    <Transaction>2022/06/15 00:32:00.000.631,=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas</Transaction>
+    <Transaction>2022/06/15 00:32:19.000.015,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTarefa03.pas</Transaction>
+    <Transaction>2022/06/15 00:32:19.000.015,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.dfm=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTarefa03.dfm</Transaction>
+    <Transaction>2022/06/15 02:13:21.000.863,=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas</Transaction>
+    <Transaction>2022/06/15 02:15:56.000.066,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.dfm=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTeste.dfm</Transaction>
+    <Transaction>2022/06/15 02:15:56.000.066,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\Unit1.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTeste.pas</Transaction>
+    <Transaction>2022/06/15 12:06:32.000.062,=C:\Users\LP\Downloads\AppManutencao-main\AppManutencao-main\src\Threads.pas</Transaction>
+    <Transaction>2022/06/15 12:07:21.000.963,C:\Users\LP\Downloads\AppManutencao-main\AppManutencao-main\src\Threads.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\Threads.pas</Transaction>
+    <Transaction>2022/06/15 12:07:21.000.963,C:\Users\LP\Downloads\AppManutencao-main\AppManutencao-main\src\Threads.dfm=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\Threads.dfm</Transaction>
+    <Transaction>2022/06/16 21:44:44.000.192,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\Threads.pas=</Transaction>
+    <Transaction>2022/06/16 21:44:54.000.728,D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Aplicacao\View\uFrmTeste.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="..\..\Teste_Softplan"/>
+    <File Path="..\Pacotes"/>
+    <File Path="..\Pacotes\spComponentes"/>
+    <File Path="..\Pacotes\spComponentes\View"/>
+    <File Path="..\Pacotes\spComponentes\View\Padrao"/>
+    <File Path="..\Pacotes\spComponentes\View\Padrao\uFrmPadrao.pas"/>
+    <File Path="..\Pacotes\spComponentes\View\Padrao\uFrmPadrao.dfm"/>
+    <File Path="View"/>
+    <File Path="View\uFrmPrincipal.pas"/>
+    <File Path="View\uFrmPrincipal.dfm"/>
+    <File Path="View\uFrmTarefa01.pas"/>
+    <File Path="View\uFrmTarefa01.dfm"/>
+    <File Path="View\uFrmTarefa02.pas"/>
+    <File Path="View\uFrmTarefa02.dfm"/>
+    <File Path="View\uFrmTarefa03.pas"/>
+    <File Path="View\uFrmTarefa03.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

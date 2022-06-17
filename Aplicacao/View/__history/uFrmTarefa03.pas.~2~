@@ -1,0 +1,25 @@
+unit uFrmTarefa03;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmPadrao, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.ComCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmTarefa03 = class(TfrmPadrao)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTarefa03: TfrmTarefa03;
+
+implementation
+
+{$R *.dfm}
+
+end.

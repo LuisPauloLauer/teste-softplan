@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/14 22:55:46.000.447,=rtl.dcp</Transaction>
+    <Transaction>2022/06/14 22:56:55.000.523,=rtl.dcp</Transaction>
+    <Transaction>2022/06/14 22:57:13.000.433,=C:\Users\LP\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 22:58:11.000.717,C:\Users\LP\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Pacotes\spComponentes\uspComponentesRegistro.pas</Transaction>
+    <Transaction>2022/06/14 22:58:28.000.622,C:\Users\LP\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\Developer\Desktop_Sistemas\Projetos\Teste_Softplan\Pacotes\spComponentes\spComponentesDT.dproj</Transaction>
+    <Transaction>2022/06/14 22:59:15.000.739,=dbrtl.dcp</Transaction>
+    <Transaction>2022/06/14 22:59:15.000.780,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2022/06/14 22:59:15.000.800,=FireDACCommon.dcp</Transaction>
+    <Transaction>2022/06/14 22:59:15.000.759,=FireDAC.dcp</Transaction>
+    <Transaction>2022/06/14 23:04:53.000.749,=spComponentes.dcp</Transaction>
+    <Transaction>2022/06/14 23:14:29.000.718,=spComponentes.dcp</Transaction>
+    <Transaction>2022/06/16 20:28:35.000.279,=spComponentes.dcp</Transaction>
+    <Transaction>2022/06/16 20:30:52.000.616,=spComponentes.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,78 @@
+unit uFrmTarefa02;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmPadrao, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.ComCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmTarefa02 = class(TfrmPadrao)
+    btIniciar: TButton;
+    GroupBox1: TGroupBox;
+    edIntervalo: TEdit;
+    pgbContagem: TProgressBar;
+    procedure FormCreate(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure btIniciarClick(Sender: TObject);
+  private
+    procedure ThreadEnd(Sender: TObject);
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTarefa02: TfrmTarefa02;
+
+implementation
+
+{$R *.dfm}
+
+uses uFrmTeste;
+
+procedure TfrmTarefa02.ThreadEnd(Sender: TObject);
+begin
+  sleep(StrToInt(edIntervalo.Text));
+  btIniciar.Enabled := True;
+end;
+
+procedure TfrmTarefa02.btIniciarClick(Sender: TObject);
+var
+  objTThread: TThread;
+begin
+  pgbContagem.Position := 0;
+  objTThread := TThread.CreateAnonymousThread(procedure
+  var
+    x : integer;
+  begin
+    for x := 1 to 100 do
+    begin
+      sleep(StrToInt(edIntervalo.Text));
+      btIniciar.Enabled := False;
+
+      TThread.Synchronize(nil, procedure
+      begin
+        pgbContagem.Position := pgbContagem.Position +1;
+      end);
+    end;
+  end);
+
+  objTThread.OnTerminate := ThreadEnd;
+  objTThread.Start;
+end;
+
+procedure TfrmTarefa02.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  inherited;
+  Action := caFree;
+end;
+
+procedure TfrmTarefa02.FormCreate(Sender: TObject);
+begin
+  inherited;
+  stbRodapePadrao.Panels[1].Text := 'Tarefa 02';
+end;
+
+end.
